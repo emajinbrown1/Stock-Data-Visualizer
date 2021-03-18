@@ -67,7 +67,81 @@ while(True):
             1. Bar
             2. Line
             """)
-            chart_Choice = float(input("Please choose a chart type /n>>>: "))
+            chart_Choice = float(input("Please choose a chart type /n>>>: 1, 2, 3 "))
+            if chart_Choice = 1:
+                
+ 
+            #!/usr/bin/python3
+
+         import numpy as np
+         import matplotlib.pyplot as plt
+
+    t = np.arange(i)
+    s = np.sin(response)
+    plt.plot(t, s)
+ 
+    plt.xlabel(i)
+    plt.ylabel(y)
+
+    plt.title(date_B_Choice, date_E_Choice)
+    plt.grid(True)
+
+    plt.show()
+    
+            elif chart_Choice = 2:
+            from matplotlib import pyplot as plt
+            from matplotlib import style
+
+            style.use('ggplot')
+
+            x = [i]
+            y = [response]
+
+            fig, ax = plt.subplots()
+
+            ax.bar(x, y, align='center')
+
+            ax.set_title(date_B_Choice, date_E_Choice)
+            ax.set_ylabel(y)
+            ax.set_xlabel(x)
+
+
+            plt.show()
+            
+            elif chart_Choice = 3:
+            import matplotlib.pyplot as plt
+
+            x_axis1 = [i]
+            y_axis1 = [response]
+
+            x_axis2 = [i]
+            y_axis2 = [response] 
+
+            plt.title(date_B_Choice, date_E_Choice)
+
+            plt.scatter(x_axis1, y_axis1, color='darkblue', marker='x', label="item 1")
+            plt.scatter(x_axis2, y_axis2, color='darkred', marker='x', label="item 2")
+            
+            for i in range(date_B_Choice, date_E_Choice):
+            i++
+            for y in range(1,2000):
+            y++
+            
+            plt.xlabel(i)
+            plt.ylabel(y)
+            
+            
+
+            plt.grid(True)
+            plt.legend()
+
+            plt.show()
+    
+              
+
+            
+
+            
             if chart_Choice <= 0:
                 print("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*")
                 print("That's not a choice please enter either 1 or 2")
